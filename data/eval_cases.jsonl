@@ -1,0 +1,60 @@
+{"id": "mh-01", "category": "multi_hop", "question": "Who leads the team that owns the Pallet Runner PR-200?", "gold_answer": "Priya Natarajan", "gold_doc_ids": ["product-pallet-runner-pr200", "team-robotics-core"], "expected_tool": "search_docs"}
+{"id": "mh-02", "category": "multi_hop", "question": "In which office is the team that owns the SkyLift D3 based?", "gold_answer": "Toronto", "gold_doc_ids": ["product-skylift-d3", "team-fleet-intelligence"], "expected_tool": "search_docs"}
+{"id": "mh-03", "category": "multi_hop", "question": "How long is the on-call rotation of the team that owns TallyScan?", "gold_answer": "10 days", "gold_doc_ids": ["product-tallyscan", "team-customer-reliability"], "expected_tool": "search_docs"}
+{"id": "mh-04", "category": "multi_hop", "question": "Who does the lead of the Fleet Intelligence team report to?", "gold_answer": "Marcus Hale", "gold_doc_ids": ["team-fleet-intelligence", "person-amara-okafor"], "expected_tool": "search_docs"}
+{"id": "mh-05", "category": "multi_hop", "question": "When did the lead of the Customer Reliability team join Quillmoor?", "gold_answer": "2016", "gold_doc_ids": ["team-customer-reliability", "person-diego-marin"], "expected_tool": "search_docs"}
+{"id": "mh-06", "category": "multi_hop", "question": "What is the address of the office where the Fulfillment Platform team is based?", "gold_answer": "120 Rua do Ouro", "gold_doc_ids": ["team-fulfillment-platform", "office-lisbon"], "expected_tool": "search_docs"}
+{"id": "mh-07", "category": "multi_hop", "question": "Who is the site manager of the office where the Robotics Core team is based?", "gold_answer": "Rosa Delgado", "gold_doc_ids": ["team-robotics-core", "office-austin"], "expected_tool": "search_docs"}
+{"id": "mh-08", "category": "multi_hop", "question": "Which team owns the product affected by incident INC-4471?", "gold_answer": "Fulfillment Platform", "gold_doc_ids": ["incident-inc-4471", "product-atlas-wms"], "expected_tool": "search_docs"}
+{"id": "mh-09", "category": "multi_hop", "question": "When did the product affected by incident INC-4502 launch?", "gold_answer": "2022", "gold_doc_ids": ["incident-inc-4502", "product-skylift-d3"], "expected_tool": "search_docs"}
+{"id": "mh-10", "category": "multi_hop", "question": "Who leads the team that resolved incident INC-4519?", "gold_answer": "Kwame Mensah", "gold_doc_ids": ["incident-inc-4519", "team-field-operations"], "expected_tool": "search_docs"}
+{"id": "mh-11", "category": "multi_hop", "question": "In which office is the team that resolved incident INC-4588 based?", "gold_answer": "Austin", "gold_doc_ids": ["incident-inc-4588", "team-customer-reliability"], "expected_tool": "search_docs"}
+{"id": "mh-12", "category": "multi_hop", "question": "Who does the lead of the Payments team report to?", "gold_answer": "Elena Varga", "gold_doc_ids": ["team-payments", "person-hannah-lindqvist"], "expected_tool": "search_docs"}
+{"id": "mh-13", "category": "multi_hop", "question": "When did the office where the Field Operations team is based open?", "gold_answer": "2020", "gold_doc_ids": ["team-field-operations", "office-toronto"], "expected_tool": "search_docs"}
+{"id": "mh-14", "category": "multi_hop", "question": "Who leads the team that resolved incident INC-4471?", "gold_answer": "Yuki Tanaka", "gold_doc_ids": ["incident-inc-4471", "team-security-engineering"], "expected_tool": "search_docs"}
+{"id": "mh-15", "category": "multi_hop", "question": "What is the maximum payload of the product affected by incident INC-4560?", "gold_answer": "1,200 kg", "gold_doc_ids": ["incident-inc-4560", "product-pallet-runner-pr200"], "expected_tool": "search_docs"}
+{"id": "mh-16", "category": "multi_hop", "question": "Who leads the team that owns the indoor inventory drone?", "gold_answer": "Amara Okafor", "gold_doc_ids": ["product-skylift-d3", "team-fleet-intelligence"], "expected_tool": "search_docs"}
+{"id": "ts-01", "category": "tool_selection", "question": "What is the domestic per diem under the travel policy?", "gold_answer": "65 USD", "gold_doc_ids": ["policy-travel"], "expected_tool": "search_docs"}
+{"id": "ts-02", "category": "tool_selection", "question": "What weekly stipend do engineers on call receive?", "gold_answer": "400 USD", "gold_doc_ids": ["policy-oncall"], "expected_tool": "search_docs"}
+{"id": "ts-03", "category": "tool_selection", "question": "Within how many days must expense reports be filed?", "gold_answer": "30 days", "gold_doc_ids": ["policy-expense"], "expected_tool": "search_docs"}
+{"id": "ts-04", "category": "tool_selection", "question": "How long is robot telemetry retained?", "gold_answer": "18 months", "gold_doc_ids": ["policy-data-retention"], "expected_tool": "search_docs"}
+{"id": "ts-05", "category": "tool_selection", "question": "What was the root cause of incident INC-4471?", "gold_answer": "an expired TLS certificate", "gold_doc_ids": ["incident-inc-4471"], "expected_tool": "search_docs"}
+{"id": "ts-06", "category": "tool_selection", "question": "What is 1450 multiplied by 12?", "gold_answer": "17400", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "ts-07", "category": "tool_selection", "question": "What is 18 percent of 2350?", "gold_answer": "423", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "ts-08", "category": "tool_selection", "question": "What is 9875 divided by 25?", "gold_answer": "395", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "ts-09", "category": "tool_selection", "question": "Convert 26.2 miles to kilometers.", "gold_answer": "42.16", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "ts-10", "category": "tool_selection", "question": "How many pounds is 75 kg?", "gold_answer": "165.35", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "ts-11", "category": "tool_selection", "question": "What is the employee ID of Hannah Lindqvist?", "gold_answer": "E-1213", "gold_doc_ids": [], "expected_tool": "lookup_record"}
+{"id": "ts-12", "category": "tool_selection", "question": "What is the SKU of the SkyLift D3?", "gold_answer": "QR-SLD3", "gold_doc_ids": [], "expected_tool": "lookup_record"}
+{"id": "ts-13", "category": "tool_selection", "question": "How many units of the Pallet Runner PR-250 are in stock?", "gold_answer": "21", "gold_doc_ids": [], "expected_tool": "lookup_record"}
+{"id": "ts-14", "category": "tool_selection", "question": "What is the cost center of Kwame Mensah?", "gold_answer": "CC-420", "gold_doc_ids": [], "expected_tool": "lookup_record"}
+{"id": "ts-15", "category": "tool_selection", "question": "How many kilograms can the SkyLift D3 carry?", "gold_answer": "4 kg", "gold_doc_ids": ["product-skylift-d3"], "expected_tool": "search_docs"}
+{"id": "ts-16", "category": "tool_selection", "question": "How many days can employees work remotely each week?", "gold_answer": "3 days", "gold_doc_ids": ["policy-remote-work"], "expected_tool": "search_docs"}
+{"id": "sv-01", "category": "schema_validation", "question": "Convert -40 degrees Celsius to Fahrenheit.", "gold_answer": "-40", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-02", "category": "schema_validation", "question": "Convert 1,250 kilograms to pounds.", "gold_answer": "2755.78", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-03", "category": "schema_validation", "question": "What is (18400 - 2500) / 4?", "gold_answer": "3975", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "sv-04", "category": "schema_validation", "question": "What is 18,400 times 0.85?", "gold_answer": "15640", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "sv-05", "category": "schema_validation", "question": "How many pounds does the Pallet Runner PR-200 weigh?", "gold_answer": "903.9", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-06", "category": "schema_validation", "question": "What is the list price of the SkyLift D3 after a 15 percent discount?", "gold_answer": "5737.5", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "sv-07", "category": "schema_validation", "question": "What is 2,350 plus 1,175?", "gold_answer": "3525", "gold_doc_ids": [], "expected_tool": "calculator"}
+{"id": "sv-08", "category": "schema_validation", "question": "Convert 98.6 degrees Fahrenheit to Celsius.", "gold_answer": "37", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-09", "category": "schema_validation", "question": "Convert 3.5 gallons to liters.", "gold_answer": "13.25", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-10", "category": "schema_validation", "question": "What is the weight in pounds of the Pallet Runner PR-250?", "gold_answer": "1003.1", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-11", "category": "schema_validation", "question": "Look up the employee record for Diego Marin and report his office.", "gold_answer": "Austin", "gold_doc_ids": [], "expected_tool": "lookup_record"}
+{"id": "sv-12", "category": "schema_validation", "question": "Convert −12 °C to Fahrenheit.", "gold_answer": "10.4", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "sv-13", "category": "schema_validation", "question": "How many kilometers is 13.1 miles?", "gold_answer": "21.08", "gold_doc_ids": [], "expected_tool": "unit_convert"}
+{"id": "ab-01", "category": "abstention", "question": "Who leads the Quantum Sensing team?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-02", "category": "abstention", "question": "What was the root cause of incident INC-4999?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-03", "category": "abstention", "question": "When did Atlas WMS launch?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-04", "category": "abstention", "question": "How long is the on-call rotation of the Payments team?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-05", "category": "abstention", "question": "Who leads the Hardware Labs team?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-06", "category": "abstention", "question": "When did the lead of the Security Engineering team join Quillmoor?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-07", "category": "abstention", "question": "What is the maximum payload of the SkyLift D5?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-08", "category": "abstention", "question": "What is the address of the Berlin office?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-09", "category": "abstention", "question": "What is the per diem for international travel?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-10", "category": "abstention", "question": "What is the employee ID of Priya Shah?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-11", "category": "abstention", "question": "What is the list price of the Pallet Runner PR-300?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-12", "category": "abstention", "question": "When did Rosa Delgado join Quillmoor?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-13", "category": "abstention", "question": "Which team owns the TallyScan Pro?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-14", "category": "abstention", "question": "Who is the current site manager of the Denver office?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}
+{"id": "ab-15", "category": "abstention", "question": "What is the hotel limit per night in the 2021 travel policy?", "gold_answer": null, "gold_doc_ids": [], "expected_tool": null}

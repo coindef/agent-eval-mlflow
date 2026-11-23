@@ -1,0 +1,19 @@
+{"table": "employees", "row_id": "emp-1042", "key": "Priya Natarajan", "status": "active", "employee_id": "E-1042", "team": "Robotics Core", "office": "Austin", "cost_center": "CC-310"}
+{"table": "employees", "row_id": "emp-0391", "key": "Priya Natarajan", "status": "inactive", "employee_id": "E-0391", "team": "Robotics Core", "office": "Denver", "cost_center": "CC-300"}
+{"table": "employees", "row_id": "emp-1107", "key": "Tomasz Wierzbicki", "status": "active", "employee_id": "E-1107", "team": "Fulfillment Platform", "office": "Lisbon", "cost_center": "CC-220"}
+{"table": "employees", "row_id": "emp-1188", "key": "Amara Okafor", "status": "active", "employee_id": "E-1188", "team": "Fleet Intelligence", "office": "Toronto", "cost_center": "CC-510"}
+{"table": "employees", "row_id": "emp-0954", "key": "Diego Marin", "status": "active", "employee_id": "E-0954", "team": "Customer Reliability", "office": "Austin", "cost_center": "CC-610"}
+{"table": "employees", "row_id": "emp-1377", "key": "Diego Marin Soto", "status": "active", "employee_id": "E-1377", "team": "Field Operations", "office": "Toronto", "cost_center": "CC-420"}
+{"table": "employees", "row_id": "emp-1213", "key": "Hannah Lindqvist", "status": "active", "employee_id": "E-1213", "team": "Payments", "office": "Lisbon", "cost_center": "CC-710"}
+{"table": "employees", "row_id": "emp-1032", "key": "Kwame Mensah", "status": "active", "employee_id": "E-1032", "team": "Field Operations", "office": "Toronto", "cost_center": "CC-420"}
+{"table": "employees", "row_id": "emp-0012", "key": "Marcus Hale", "status": "active", "employee_id": "E-0012", "team": "Executive", "office": "Austin", "cost_center": "CC-100"}
+{"table": "employees", "row_id": "emp-0020", "key": "Elena Varga", "status": "active", "employee_id": "E-0020", "team": "Executive", "office": "Lisbon", "cost_center": "CC-100"}
+{"table": "employees", "row_id": "emp-1250", "key": "Yuki Tanaka", "status": "active", "employee_id": "E-1250", "team": "Security Engineering", "office": "Austin", "cost_center": "CC-810"}
+{"table": "employees", "row_id": "emp-0733", "key": "Rosa Delgado", "status": "active", "employee_id": "E-0733", "team": "Workplace", "office": "Austin", "cost_center": "CC-900"}
+{"table": "employees", "row_id": "emp-0815", "key": "Leon Fischer", "status": "active", "employee_id": "E-0815", "team": "Robotics Research", "office": "Toronto", "cost_center": "CC-330"}
+{"table": "products", "row_id": "prd-pr200", "key": "Pallet Runner PR-200", "status": "active", "sku": "QR-PR200", "list_price_usd": 18400, "weight_kg": 410, "units_in_stock": 37}
+{"table": "products", "row_id": "prd-pr200r", "key": "Pallet Runner PR-200 Refurbished", "status": "active", "sku": "QR-PR200-R", "list_price_usd": 12900, "weight_kg": 410, "units_in_stock": 6}
+{"table": "products", "row_id": "prd-pr250", "key": "Pallet Runner PR-250", "status": "active", "sku": "QR-PR250", "list_price_usd": 22900, "weight_kg": 455, "units_in_stock": 21}
+{"table": "products", "row_id": "prd-sld3", "key": "SkyLift D3", "status": "active", "sku": "QR-SLD3", "list_price_usd": 6750, "weight_kg": 7.2, "units_in_stock": 140}
+{"table": "products", "row_id": "prd-sld2", "key": "SkyLift D2", "status": "discontinued", "sku": "QR-SLD2", "list_price_usd": 5200, "weight_kg": 6.8, "units_in_stock": 0}
+{"table": "products", "row_id": "prd-ts1", "key": "TallyScan Handheld", "status": "active", "sku": "QR-TS1", "list_price_usd": 1150, "weight_kg": 0.6, "units_in_stock": 310}
